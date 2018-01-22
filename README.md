@@ -1,2 +1,3 @@
-iiii
-# training
+##Fastcampus Data Science school
+
+learning materials
