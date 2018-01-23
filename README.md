@@ -1,4 +1,4 @@
-##Fastcampus Data Science school
+Fastcampus Data Science school
 
 learning materials
 
