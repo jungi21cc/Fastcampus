@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<link rel="stylesheet" href="./css_1.css">
+<style media="screen">
+    .style{
+        color: blue;
+    }
+</style>
+<body>
+
+<hr />
+<h3>레이아웃(div)</h3>
+<div class="top">
+    <p>top</p>
+</div>
+<div class="contents">
+    <div class="content no1">
+        <span>content_1</span>
+    </div>
+    <div class="content no2">
+        <span>content_2</span>
+    </div>
+</div>
+<div class="footer">
+    <p>footer</p>
+</div>
+
+<hr />
+<h3>테이블(table)</h3>
+<table style="width:200px;">
+    <caption>테이블의 타이틀</caption>
+    <thead>
+        <tr>
+            <th>idx</th>
+            <th>A</th>
+            <th>B</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>1</th>
+            <th>A1</th>
+            <th>B1</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>A2</th>
+            <th>B2</th>
+        </tr>
+    </tbody>
+</table>
+
+<hr />
+<h3>리스트_1(ul,li)</h3>
+<ul>
+    <li>ul_li_1</li>
+    <li>ul_li_2</li>
+    <li>ul_li_3</li>
+</ul>
+
+<h3>리스트_2(ol,li)</h3>
+<ol>
+    <li>ol_li_1</li>
+    <li>ol_li_2</li>
+    <li>ol_li_3</li>
+</ol>
+
+<hr />
+<h3>링크(a)</h3>
+<a href="http://google.com" >Google (no blank)</a><br />
+<a href="http://fastcampus.co.kr" target="_blank">Fastcampus (blank)</a>
+
+<hr />
+<h3>이미지(img)</h3>
+<img src="http://cdn.www.fastcampus.co.kr/wp-content/uploads/2017/11/fastcampus_logo_positive-111.png" alt="No Image"><br />
+<img src="http://cdn.www.fastcampus.co.kr/wp-content/uploads/2017/11/fastcampus_logo_positive-1.png" alt="Image 1" width="200">
+
+<hr />
+<h3>아이프레임(iframe)</h3>
+<iframe src="file:///Users/radajin/Documents/fastcampus/dss/web/html/basic_html_1.html" width="400" height="400"></iframe>
+
+<hr />
+<h3>입력(input) : text, radio, password, checkbox</h3>
+<input type="text" name="" value="" placeholder="이메일">
+<input type="password" name="" value="" placeholder="비밀번호">
+<br /><br />
+<input type="radio" name="radio_1" value="b1">버튼1</input>
+<input type="radio" name="radio_1" value="b2">버튼2</input>
+<input type="radio" name="radio_2" value="b3">버튼3</input>
+<input type="radio" name="radio_2" value="b4">버튼4</input>
+<br /><br />
+<input type="checkbox" name="" value="c1">체크박스1</input>
+<input type="checkbox" name="" value="c2">체크박스2</input>
+
+<hr />
+<h3>여러줄의 입력을 받을수 있는 Element(textarea)</h3>
+<textarea name="ta" rows="5" cols="50" style="resize: none;"></textarea>
+
+<hr />
+<h3>옵션을 선택할수 있는 Element(select, option)</h3>
+<select>
+    <option value="1">option 1</option>
+    <option value="2">option 2</option>
+    <option value="3">option 3</option>
+</select>
+
+<hr />
+<h3>버튼을 나타내는 Element(button)</h3>
+<button type="button" onclick="javascript:(alert('Hello'))">Click</button>
+
+<hr />
+<h3>Entities</h3>
+<img src="https://www.developerfeed.com/wp-content/uploads/2013/12/html-entities.png" alt="">
+<p><p>2</p>
+<p>&lt;p&gt;2</p>
+
+<hr />
+<h3 class="style">css 코드가 들어가는 영역(style)</h3>
+
+<hr />
+<h3 class="link">css를 불러오는 Element(link)</h3>
+
+<hr />
+<h3>js를 사용할수 있는 Element 영역(script)</h3>
+<p>src 속성으로 javascript 파일을 호출 가능</p>
+
+</body>
+<script type="text/javascript">
+    // alert(5)
+</script>
+<!-- <script type="text/javascript" src="js_1.js"></script> -->
+</html>

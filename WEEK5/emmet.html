@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+
+    > - 하위 레벨 태그 생성
+    + - 같은 레벨 태그 생성
+    () - 태그 묶음
+    div>h3+(ul>li>a)+(dl>dt+dd)
+
+    ^^ - 부모 요소 접근
+    div>h3+ul>li>a^^dl>dt+dd
+
+    : - type 속성
+    input:radio
+    input:checkbox
+    input:submit
+
+    # - 아이디 값
+    $$ - 순번
+    * - 반복 횟수
+    #page>#nav>ul>li[class="item-$$"]*5
+
+    <div></div>#id
+
+    p#data>span.text{span-$}*3
+
+    . - class 속성
+    p#ab.a.b
+
+    @5 - 5부터 나타남
+    {} - 문자열 입력
+    #page>#nav>ul>li[class="item-$$@5"]{목록아이팀}*5
+
+    strong>a[href="http://google.com"]{move google}+{구글로 이동}
+
+    a[href = "http://google.com"]{구글로 이동}
+    
+
+</body>
+
+</html>

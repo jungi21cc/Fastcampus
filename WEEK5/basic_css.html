@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<style media="screen">
+
+    html,body{
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+    }
+
+    .top{
+        height: 60px;
+        width: 100%;
+        background: #584b4f;
+    }
+    .top ul, .top li{
+        display: inline-block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin: 10px;
+    }
+    .top a{
+        text-decoration: none;
+        color: #efeae1;
+        margin-right: 20px;
+    }
+
+    .contants .contant{
+        display: none;
+        text-align: center;
+    }
+    .contants .contant.no1{
+        display: block;
+    }
+
+    .footer{
+        height: 60px;
+        background: #efeae1;
+    }
+    .footer p{
+        padding: 20px 50px;
+        text-align: center;
+    }
+
+    /* ID selector */
+    #ds1{
+        /* color: red; */
+    }
+
+    /* class selector */
+    .ds1{
+        /* color: red; */
+    }
+    .ds2{
+        /* color: blue; */
+    }
+
+    /* not */
+    .contants .contant.no1 h1:not(#ds2) {
+        /* color: blue; */
+    }
+
+    /* first-child */
+    .contants .contant.no1 h1:first-child {
+        /* color: blue; */
+    }
+
+    /* last-child */
+    .contants .contant.no1 h1:last-child {
+        /* color: blue; */
+    }
+
+    /* nth-child */
+    .contants .contant.no1 h1:nth-child(5) {
+        /* color: blue; */
+    }
+
+</style>
+<body>
+
+<div class="top">
+    <ul>
+        <li>
+            <a href="http://google.com" target="_blank">google</a>
+            <a href="http://naver.com" target="_blank">naver</a>
+            <a href="http://daum.net" target="_blank">daum</a>
+        </li>
+    </ul>
+</div>
+
+<div class="contants">
+    <div class="contant no1">
+        <h1 id="ds1" class="ds1">Data Science 1</h1>
+        <h1 id="ds2" class="ds1">Data Science 2</h1>
+        <h1 id="ds3" class="ds1">Data Science 3</h1>
+        <h1 id="ds4" class="ds2">Data Science 4</h1>
+        <h1 id="ds5" class="ds2">Data Science 5</h1>
+        <h1 id="ds6" class="ds2">Data Science 6</h1>
+        <h1 id="ds7">Data Science 7</h1>
+        <h1 id="ds8">Data Science 8</h1>
+        <h1 id="ds9">Data Science 9</h1>
+        <h1 id="ds10">Data Science 10</h1>
+        <h1 id="ds11">Data Science 11</h1>
+        <h1 id="ds12">Data Science 12</h1>
+        <h1 id="ds13">Data Science 13</h1>
+        <h1 id="ds14">Data Science 14</h1>
+        <h1 id="ds15">Data Science 15</h1>
+        <h1 id="ds16">Data Science 16</h1>
+        <h1 id="ds17">Data Science 17</h1>
+        <h1 id="ds18">Data Science 18</h1>
+        <h1 id="ds19">Data Science 19</h1>
+        <h1 id="ds20">Data Science 20</h1>
+    </div>
+    <div class="contant no2">
+        h1#py${Python $}*30
+        h1#ds${data science $}*30
+        <h1 id="ds1">data science 1</h1>
+        <h1 id="ds2">data science 2</h1>
+        <h1 id="ds3">data science 3</h1>
+        <h1 id="ds4">data science 4</h1>
+        <h1 id="ds5">data science 5</h1>
+        <h1 id="ds6">data science 6</h1>
+        <h1 id="ds7">data science 7</h1>
+        <h1 id="ds8">data science 8</h1>
+        <h1 id="ds9">data science 9</h1>
+        <h1 id="ds10">data science 10</h1>
+        <h1 id="ds11">data science 11</h1>
+        <h1 id="ds12">data science 12</h1>
+        <h1 id="ds13">data science 13</h1>
+        <h1 id="ds14">data science 14</h1>
+        <h1 id="ds15">data science 15</h1>
+        <h1 id="ds16">data science 16</h1>
+        <h1 id="ds17">data science 17</h1>
+        <h1 id="ds18">data science 18</h1>
+        <h1 id="ds19">data science 19</h1>
+        <h1 id="ds20">data science 20</h1>
+        <h1 id="ds21">data science 21</h1>
+        <h1 id="ds22">data science 22</h1>
+        <h1 id="ds23">data science 23</h1>
+        <h1 id="ds24">data science 24</h1>
+        <h1 id="ds25">data science 25</h1>
+        <h1 id="ds26">data science 26</h1>
+        <h1 id="ds27">data science 27</h1>
+        <h1 id="ds28">data science 28</h1>
+        <h1 id="ds29">data science 29</h1>
+        <h1 id="ds30">data science 30</h1>
+    </div>
+
+
+
+</div>
+
+<div class="footer">
+    <p>
+        ©2018 All rights reserved. | Hosting by (주)데이터사이언스
+    </p>
+</div>
+
+<script type="text/javascript" src="js_1.js"></script>
+</body>
+</html>
