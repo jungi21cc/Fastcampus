@@ -11,7 +11,9 @@ Linear Algebra
 
 1. http://www.kocw.net/home/search/kemView.do?kemId=977757
 
+Probability
 
+1. https://en.wikipedia.org/wiki/Bayes'_theorem
 
 Python 
 
