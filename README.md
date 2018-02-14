@@ -1,5 +1,7 @@
 # Data-science learning materials
 
+### Institution
+
 Fastcampus 
 http://www.fastcampus.co.kr/
 
@@ -7,12 +9,12 @@ coursera
 https://www.coursera.org/learn/machine-learning?authMode=signup
 
 
-# Machine Learning
+### Machine Learning
 
-1. 파이썬라이브러리를활용한머신러닝 https://tensorflow.blog/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/
+- 파이썬라이브러리를활용한머신러닝 https://tensorflow.blog/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/
 
 
-# Math
+### Math
 
 1. Linear Algebra 
 
@@ -23,7 +25,7 @@ http://www.kocw.net/home/search/kemView.do?kemId=977757
 Bayes' theory https://en.wikipedia.org/wiki/Bayes'_theorem
 
 
-# computer programming
+### computer programming
 
 1. Python 
 
