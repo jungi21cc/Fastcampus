@@ -1,0 +1,13 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2018-02-27T08:06:02.710Z] GhostDriver - Main - running on port 53745
+[INFO  - 2018-02-27T08:06:03.596Z] Session [0e20ae60-1b95-11e8-9ae2-8fdb184f6f39] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2018-02-27T08:06:03.596Z] Session [0e20ae60-1b95-11e8-9ae2-8fdb184f6f39] - page.customHeaders:  - {}
+[INFO  - 2018-02-27T08:06:03.596Z] Session [0e20ae60-1b95-11e8-9ae2-8fdb184f6f39] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-27T08:06:03.596Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0e20ae60-1b95-11e8-9ae2-8fdb184f6f39
+[INFO  - 2018-02-27T08:11:01.689Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-27T08:11:01.689Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '0d7fb370-1b95-11e8-833a-c113acc3205a', because windowless
+(anonymous function) (http://tveta.naver.net/libs/assets/js/pc/main/min/pc.veta.core.min.js?20171027:1)
+  (anonymous function) (http://tveta.naver.net/libs/assets/js/pc/main/min/pc.veta.core.min.js?20171027:1)
+  (anonymous function) (http://tveta.naver.net/libs/assets/js/pc/main/min/pc.veta.core.min.js?20171027:1)
+[INFO  - 2018-02-27T08:11:02.809Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-27T08:11:02.809Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '0e20ae60-1b95-11e8-9ae2-8fdb184f6f39', because windowless
