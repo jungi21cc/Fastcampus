@@ -14,20 +14,20 @@
 
 1. linear algebra and analytic geomatric
 
-  a. scala, vector, matrix
+    a. scala, vector, matrix
   
-  b. unit vector
+     b. unit vector
   
-  c. euclidean distance
+    c. euclidean distance
   
-  d. projection vector
+    d. projection vector
   
 2. system of equations and inverse matrix
   
-  a. system of linear equation
+    a. system of linear equation
   
-  b. inverse
+    b. inverse
   
-  c. pseudo inverse
+    c. pseudo inverse
   
 
