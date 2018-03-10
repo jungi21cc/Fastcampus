@@ -10,6 +10,7 @@
 
 [Machine Learning | Coursera](https://www.coursera.org/learn/machine-learning?authMode=signup)
 
+
 # Math
 
 ## Linear Algebra
@@ -21,6 +22,9 @@
 [확률 및 통계 - 한양대학교 | KOCW 공개 강의](http://www.kocw.net/home/search/kemView.do?kemId=1056974)
 
 ## Regression Analysis
+
+### OLS
+
 
 # Computer Science
 
@@ -37,6 +41,7 @@
 [CSS 수업 - 생활코딩](https://opentutorials.org/course/2418)
 
 [JavaScript - 생활코딩](https://opentutorials.org/course/743)
+
 
 # Table of Contents
 
