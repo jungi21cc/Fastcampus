@@ -10,6 +10,8 @@
 
 [Machine Learning | Coursera](https://www.coursera.org/learn/machine-learning?authMode=signup)
 
+[모두를 위한 머신러닝/딥러닝 강의 - GitHub Pages](https://www.youtube.com/watch?v=BS6O0zOGX4E&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&index=1)
+
 
 # Math
 
@@ -23,7 +25,7 @@
 
 ## Regression Analysis
 
-### OLS
+[계량경제학 - 부산대학교 | KOCW 공개 강의](http://www.kocw.net/home/cview.do?cid=3a8b45295858fd20)
 
 
 # Computer Science
@@ -41,6 +43,7 @@
 [CSS 수업 - 생활코딩](https://opentutorials.org/course/2418)
 
 [JavaScript - 생활코딩](https://opentutorials.org/course/743)
+
 
 
 # Table of Contents
