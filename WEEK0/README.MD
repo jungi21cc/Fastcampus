@@ -1,15 +1,16 @@
-overall
+# WEEK0
 
-other materials
+### VCS
 
-
-
-
+- git / github
 
 
+### linux
+
+- bash shell
 
 
+### google drive API
 
 
-
-
+### Latex
