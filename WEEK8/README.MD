@@ -51,13 +51,16 @@
 
         3) Regulization
 
-8. Polynomial regression
+8. PCA
+
+
+9. Polynomial regression
 
     a. polynomial Regression
 
     b. over-fitting
 
-9. Cross validation
+10. Cross validation
 
     a. k-fold cross validation
 
@@ -67,7 +70,7 @@
 
     d. cross validation score
 
-10. Regulization
+11. Regulization
 
     a. Ridge regression
 
@@ -80,7 +83,7 @@
     e. one standard error rule
 
 
-11. recommendation system
+12. recommendation system
 
     a. baseline model
 
