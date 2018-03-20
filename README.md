@@ -12,6 +12,7 @@
 
 [모두를 위한 머신러닝/딥러닝 강의](https://www.youtube.com/watch?v=BS6O0zOGX4E&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&index=1)
 
+[Machine Learning with Fastcampus](/Machine Learning)
 
 # Math
 
@@ -19,20 +20,19 @@
 
 [선형대수 - 한양대학교 | KOCW 공개 강의](http://www.kocw.net/home/search/kemView.do?kemId=977757)
 
-[Linear Algebra 1/3](/WEEK1)
-
-[Linear Algebra 2/3](/WEEK2)
-
-[Linear Algebra 3/3](/WEEK3)
+[Linear Algebra with Fastcampus](/Linear Algebra)
 
 ## Probability / Statistics
 
 [확률 및 통계 - 한양대학교 | KOCW 공개 강의](http://www.kocw.net/home/search/kemView.do?kemId=1056974)
 
+[Probability & Statistics with Fastcampus](/Probability & Statistics)
+
 ## Regression Analysis
 
 [계량경제학 - 부산대학교 | KOCW 공개 강의](http://www.kocw.net/home/cview.do?cid=3a8b45295858fd20)
 
+[Regression Analysis with Fastcampus](/Regression Analysis)
 
 # Computer Science
 
@@ -44,21 +44,19 @@
 
 [알고리즘 문제 | 프로그래머스](https://programmers.co.kr/learn/challenges)
 
-[Python with Fastcampus 1/2](/WEEK1)
+[Python with Fastcampus](/Python)
 
-[Python with Fastcampus 2/2](/WEEK2)
+## Python Applications
 
-## Python Data Analysis Packages
+[Python Applications with Fastcampus](/Python Applications)
 
-[Python Numpy with Fastcampus](/WEEK3)
-
-[Python Pandas with Fastcampus](/WEEK3)
-
-[Python Matplotlib with Fastcampus](/WEEK4)
+> * Data Analysis Packages
+> * Web Crawling
+> * Slack Chat-bot
 
 ## SQL / NoSQL
 
-[MySQL](/WEEK9)
+[SQL/NoSQL with Fastcampus](/SQL_NoSQL)
 
 ## HTML / CSS / Javascript
 
@@ -68,12 +66,14 @@
 
 [JavaScript - 생활코딩](https://opentutorials.org/course/743)
 
-## VCS
+[HTML/CSS/JavaScript with Fastcampus](/Web Programming)
 
-[git / github](/WEEK0)
+[REST API with Fastcampus](/Web Programming)
 
-[Vim editor](/WEEK0)
+# Cognitive Science
+
+[Cognitive Science](https://www.youtube.com/watch?v=fkS2YmBM_jo&list=PLTIeLyBa6PfIoNMLCQWA25YqkkmSx37ks)
 
 # Information Theory
 
-[Information Theory | mathematicalmonk](https://www.youtube.com/watch?v=UrefKMSEuAI&list=PLE125425EC837021F)
+[Information Theory](https://www.youtube.com/watch?v=UrefKMSEuAI&list=PLE125425EC837021F)
