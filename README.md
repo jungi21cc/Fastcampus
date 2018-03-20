@@ -1,6 +1,6 @@
 # Data-science learning materials
 
-![alt text](/WEEK0/cover_image.jpg "cover_image")
+![alt text](/cover_image.jpg "cover_image")
 
 # Machine Learning
 
