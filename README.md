@@ -13,6 +13,12 @@
 [모두를 위한 머신러닝/딥러닝 강의](https://www.youtube.com/watch?v=BS6O0zOGX4E&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&index=1)
 
 [Machine Learning with Fastcampus](/Machine_Learning)
+> * Logistic Regression
+> * Linear Discriminant Analysis / Quadratic Discriminant Analysis
+> * Naive Bayesian
+> * Decision Tree
+> * Support Vector Machine
+
 
 # Math
 
@@ -33,6 +39,11 @@
 [계량경제학 - 부산대학교 | KOCW 공개 강의](http://www.kocw.net/home/cview.do?cid=3a8b45295858fd20)
 
 [Regression Analysis with Fastcampus](/Regression_Analysis)
+> * Ordinary Least Square Regression Analysis
+> * Multivariable Regression
+> * Categorical Data Analysis
+> * ANOVA / R Square
+> * Regularization
 
 # Computer Science
 
@@ -45,18 +56,23 @@
 [알고리즘 문제 | 프로그래머스](https://programmers.co.kr/learn/challenges)
 
 [Python with Fastcampus](/Python)
+> * syntax, function, class
+> * Data Analysis Packages
+>> * numpy
+>> * pandas
+>> * matplotlib
 
 ## Python Applications
 
 [Python Applications with Fastcampus](/Python_Applications)
-
-> * Data Analysis Packages
 > * Web Crawling
 > * Slack Chat-bot
 
 ## SQL / NoSQL
 
 [SQL/NoSQL with Fastcampus](/SQL_NoSQL)
+> * MySQL
+> * MongoDB
 
 ## HTML / CSS / Javascript
 
@@ -69,11 +85,8 @@
 [HTML/CSS/JavaScript with Fastcampus](/Web_Programming)
 
 [REST API with Fastcampus](/Web_Programming)
+> * Flask
 
 # Cognitive Science
 
-[Cognitive Science](https://www.youtube.com/watch?v=fkS2YmBM_jo&list=PLTIeLyBa6PfIoNMLCQWA25YqkkmSx37ks)
-
-# Information Theory
-
-[Information Theory](https://www.youtube.com/watch?v=UrefKMSEuAI&list=PLE125425EC837021F)
+[인지과학 - 성균관대학교 | KOCW 공개 강의](http://www.kocw.net/home/search/kemView.do?kemId=444916)
