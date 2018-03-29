@@ -2,6 +2,12 @@
 
 ![alt text](/cover_image.jpg "cover_image")
 
+# Fastcampus
+
+[페스트 캠퍼스 데이터 사이언스 스쿨 7기](http://www.fastcampus.co.kr/)
+
+[데이터 사이언스 스쿨](https://datascienceschool.net/)
+
 # Machine Learning
 
 [파이썬라이브러리를활용한머신러닝](https://tensorflow.blog/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/)
