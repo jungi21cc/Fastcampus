@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>my title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style media="screen">
+      .container{
+          margin-top: 40px;
+      }
+      .result{
+          margin-top: 20px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+  <div class="container">
+
+    <div class = 'input row'>
+      <input type="text" class="col-md-10 form-control sentence" placeholder="enter sentence!!" name="" value="데이터사이언스는 재미있다">
+      <button type="button" class="col-md-10 btn btn-success" name="">predict</button>
+    </div>
+    <div class = 'result row'>
+
+      <div class="col-md-10 alert alert-secondary" role="alert">
+      아 몰라
+      </div>
+    </div>
+    <div class = 'chart'>
+      <div id="container">
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/export-data.js"></script>
+
+  <script type="text/javascript">
+
+
+  $(document).ready(function(){
+
+    $('.predict').on('click', function(){
+        var txt = $('.sentence').val();
+        request = {
+            sentence : txt
+        }
+
+        $.post("/predict/", request).done(function(data){
+              console.log(data);
+
+              for(var i=0; i <data.result.length; i++){
+                var summary = data.category[i] + " : " + (data.result[i]*100).toFixed(2);
+                var tag = "<p>" + summary + "</p>";
+                $(".result .alert").append(tag);
+
+                $(".result").slideDown();
+
+
+              }
+        })
+
+        alert('sentence')
+
+    });
+
+  });
+
+
+  Highcharts.chart('container', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },
+    title: {
+        text: 'Browser market shares in January, 2018'
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                style: {
+                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                }
+            }
+        }
+    },
+    series: [{
+        name: 'Brands',
+        colorByPoint: true,
+        data: [{
+            name: 'Chrome',
+            y: 61.41,
+        }, {
+            name: 'Internet Explorer',
+            y: 11.84
+        }, {
+            name: 'Firefox',
+            y: 10.85
+        }, {
+            name: 'Edge',
+            y: 4.67
+        }, {
+            name: 'Safari',
+            y: 4.18
+        }, {
+            name: 'Sogou Explorer',
+            y: 1.64
+        }, {
+            name: 'Opera',
+            y: 1.6
+        }, {
+            name: 'QQ',
+            y: 1.2
+        }, {
+            name: 'Other',
+            y: 2.61
+        }]
+    }]
+});
+
+
+  </script>
+
+
+  </body>
+</html>
