@@ -1,6 +1,6 @@
 # Data-science learning materials
 
-![alt text](/cover_image.jpg "cover_image")
+
 
 # Fastcampus
 
