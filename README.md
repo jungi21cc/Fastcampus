@@ -1,12 +1,14 @@
 # Data-science learning materials
 
-
-
 # Fastcampus
 
-[데이터 사이언스 스쿨 7기 프로그래밍](http://www.fastcampus.co.kr/)[박두진 강사](https://github.com/radajin)
+[데이터 사이언스 스쿨 7기 프로그래밍](http://www.fastcampus.co.kr/data_school_pdss/)
 
-[데이터 사이언스 스쿨 7기 수학](https://datascienceschool.net/)[김도형 강사](https://github.com/joelkim)
+- [박두진 강사](https://github.com/radajin)
+
+[데이터 사이언스 스쿨 7기 수학](https://datascienceschool.net/)
+
+- [김도형 강사](https://github.com/joelkim)
 
 
 # Machine Learning
