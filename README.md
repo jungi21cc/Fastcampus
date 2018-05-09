@@ -110,7 +110,7 @@
 
 ## Database
 
-### [데이터베이 with Fastcampus](/08_Database)
+### [데이터베이스 with Fastcampus](/08_Database)
 - SQL : MySQL
 - NoSQL : MongoDB
 
@@ -119,6 +119,8 @@
 - Amazon Web Service EC2
 - FTP : FileZilla
 - crontab / xvfb
+
+### [클라우드서버 사용법 jungi21cc blog](https://jungi21cc.github.io/2018/02/17/cloud-server/)
 
 
 ## 웹 프로그래밍
